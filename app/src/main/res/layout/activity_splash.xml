@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical"
+    android:background="#A2DDC2">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/aciklama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Mobil Programlama Bütünleme Ödevi"
+            android:textSize="23sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/isim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/aciklama"
+            android:text="ABDÜLBAKİ ÇELİK"
+            android:textSize="23sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/ogrenciNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isim"
+            android:layout_centerHorizontal="true"
+            android:text="181130074"
+            android:textSize="23sp"
+            android:textColor="@color/black" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#D52F2F"
+    tools:context=".AddUserActivity">
+
+    <TextView
+        android:id="@+id/addUserBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="KULLANICI EKLE"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/addUserFirstName"
+        android:layout_width="330dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:background="#ffffff"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/addUserLastName"
+        android:layout_width="330dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="219dp"
+        android:background="#fff"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addUserBtnOlustur"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/addUserLastName"
+        android:layout_alignRight="@+id/addUserLastName"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:text="EKLE"
+        android:background="#ffffff" />
+
+    <Button
+        android:id="@+id/addUserBtnIptal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/addUserLastName"
+        android:layout_alignLeft="@+id/addUserLastName"
+        android:layout_alignTop="@+id/addUserBtnOlustur"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_toStartOf="@+id/addUserBtnOlustur"
+        android:layout_toLeftOf="@+id/addUserBtnOlustur"
+        android:text="İPTAL"
+        android:background="#ffffff" />
+
+</RelativeLayout>
